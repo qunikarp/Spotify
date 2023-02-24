@@ -1,15 +1,14 @@
-/// Main Styles File
-/// Here we import all the global Styles files we need for our project.
+// 1.0 Base
+@use "base";
 
-@import "styles/normalize.scss";
-@import "styles/root.scss";
-@import "styles/fonts.scss";
+// 2.0 Layout
+@use "layout";
 
-body {
-  font-family: "Roboto", sans-serif;
-  color: var(--color-primary);
-}
+// 3.0 Utilities
+@use "utils/border-radius" as border;
+@use "utils/breakpoints" as bp;
+@use "utils/colors" as color;
+@use "utils/typography" as type;
 
-p {
-  color: var(--color-on-surface);
-}
+// 4.0 Vendors
+@use "vendors";

@@ -1,42 +1,29 @@
-// Variables for fast PX > REM convertion
-$font68: 4.25rem;
-$font48: 3rem;
-$font18: 1.125rem;
-$font12: 0.75rem;
+$fs-XXL: 4.25rem;
+$fs-XL: 3rem;
+$fs-L: 1.125rem;
+$fs-M: 1rem;
+$fs-S: 0.75rem;
 
-@mixin desktop-h1 {
-  font-size: $font68;
-  letter-spacing: -4px;
-  font-weight: 700;
-}
+$regular: 400;
+$medium: 500;
+$bold: 700;
 
-@mixin desktop-h2 {
-  font-size: $font48;
-  letter-spacing: -4px;
-  font-weight: 400;
-}
+$spacing: -0.04rem;
 
-@mixin desktop-p-bold {
-  font-weight: 700;
-}
-
-@mixin desktop-small-p {
-  font-size: $font12;
-  font-weight: 500;
-}
+// Typography boilerplate
 
 h1,
 h2,
 h3,
 p,
 a {
-  font-family: "Lato", sans-serif;
-  color: #fff;
-  margin-top: 0;
+    font-family: "Lato", sans-serif;
+    color: #fff;
+    margin-top: 0;
 }
 
 a,
 a:visited,
 a:active {
-  text-decoration: none;
+    text-decoration: none;
 }
