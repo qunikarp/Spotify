@@ -8,7 +8,7 @@
   </head>
 
 <body>
-<div id="root">
+<div class="root">
   <nav class="navbar">
     <div class="navbar__arrows">
       <a href="#" class="navbar__arrow">
@@ -21,11 +21,13 @@
 
     <div class="navbar__profile"> 
       <img
-        src="/src/assets/profile.jpg"
+        src="/src/assets/avatar.png"
         alt="Profile picture"
         class="navbar__profile-img"
       />
-      <div class="navbar__profile-name">Julia Gomez</div> 
+      <div class="navbar__profile-name">
+        <p class="navbar__profile-name-text">Julia Gomez</p>
+      </div> 
     </div> 
   </nav> 
 
@@ -45,7 +47,8 @@
 
   <section class="playlist">
     <div class="playlist__song"> <!-- ! On active: visable buttons [like and menu btn]-->
-      <div class="playlist__number-indicator">01</div>
+      <div class="playlist__number-indicator">
+        <p class="playlist__number-indicator-text">01</p></div>
       <div class="playlist__song-cover">
         <img 
           src="/src/assets/cover.jpg" 
